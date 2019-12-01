@@ -1,0 +1,82 @@
+.mainBackGround{
+  background-color: #e7dfd9;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.greenSquare{
+   transition-timing-function: ease-in-out;
+   transition-duration: 200ms;
+   transition-delay: 100ms;
+   transform-origin: 192px -317px;
+   transform: rotate(-100deg);
+   width: 210px;
+   height: 210px;
+   background-color: #90dd96;
+ }
+
+.greenSquare_rotated{
+  transition-timing-function: ease-in-out;
+  transition-duration: 200ms;
+  transition-delay: 100ms;
+  transform-origin: 192px -317px;
+  transform: rotate(-45deg);
+  width: 210px;
+  height: 210px;
+  background-color: #90dd96;
+}
+
+.yellowSquare{
+  position: absolute;
+  top: 500px;
+  left: -1100px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 200ms;
+  transition-delay: 500ms;
+  transform-origin: 1430px 1600px;
+  transform: rotate(20deg);
+  width: 472px;
+  height: 472px;
+  background-color: #fbcb2cab;
+  opacity: 50%;
+}
+
+.yellowSquare_rotated{
+  position: absolute;
+  top: 500px;
+  left: -1100px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
+  transition-delay: 200ms;
+  transform-origin: 1430px 1600px;
+  transform: rotate(45deg);
+  width: 472px;
+  height: 472px;
+  background-color: #fbcb2cab;
+  opacity: 50%;
+}
+.roseSquare{
+  transition-timing-function: ease-in-out;
+  transition-duration: 800ms;
+  transition-delay: 300ms;
+  transform-origin: 345px 138px;
+  transform: rotate(-180deg);
+  width: 210px;
+  height: 210px;
+  background-color: rgba(255, 111, 149, 0.38);
+}
+
+.roseSquare_rotated{
+  transition-timing-function: ease-in-out;
+  transition-duration: 800ms;
+  transition-delay: 300ms;
+  transform-origin: 345px 138px;
+  transform: rotate(-135deg);
+  width: 210px;
+  height: 210px;
+  background-color: rgba(255, 111, 149, 0.38);
+}

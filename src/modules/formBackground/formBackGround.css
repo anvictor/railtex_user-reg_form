@@ -1,0 +1,110 @@
+.formBackGround{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.greenSquare1{
+   transition-timing-function: ease-in-out;
+   transition-duration: 200ms;
+   transition-delay: 100ms;
+  transform-origin: -38px 643px;
+   transform: rotate(-100deg);
+   width: 80px;
+   height: 80px;
+   background-color: #90dd96;
+ }
+
+.greenSquare1_rotated{
+  transition-timing-function: ease-in-out;
+  transition-duration: 200ms;
+  transition-delay: 100ms;
+  transform-origin: -38px 643px;
+  transform: rotate(45deg);
+  width: 80px;
+  height: 80px;
+  background-color: #90dd96;
+}
+
+.yellowSquare1{
+  position: absolute;
+  top: 500px;
+  left: -1100px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 200ms;
+  transition-delay: 700ms;
+  transform-origin: 1090px 1780px;
+  transform: rotate(20deg);
+  width: 472px;
+  height: 472px;
+  background-color: #fbcb2cab;
+  opacity: 50%;
+}
+
+.yellowSquare1_rotated{
+  position: absolute;
+  top: 500px;
+  left: -1100px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
+  transition-delay: 700ms;
+  transform-origin: 1090px 1780px;
+  transform: rotate(45deg);
+  width: 200px;
+  height: 200px;
+  background-color: #fbcb2cab;
+  opacity: 50%;
+}
+.yellowSquare2{
+  position: absolute;
+  top: 500px;
+  left: -1100px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 200ms;
+  transition-delay: 600ms;
+  transform-origin: 1040px 1120px;
+  transform: rotate(20deg);
+  width: 200px;
+  height: 200px;
+  background-color: #fbcb2cab;
+  opacity: 50%;
+}
+
+.yellowSquare2_rotated{
+  position: absolute;
+  top: 500px;
+  left: -1100px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 600ms;
+  transition-delay: 200ms;
+  transform-origin: 1040px 1120px;
+  transform: rotate(45deg);
+  width: 200px;
+  height: 200px;
+  background-color: #fbcb2cab;
+  opacity: 50%;
+}
+.roseSquare1{
+  transition-timing-function: ease-in-out;
+  transition-duration: 1000ms;
+  transition-delay: 300ms;
+  transform-origin: -77px 168px;
+  transform: rotate(-180deg);
+  width: 80px;
+  height: 80px;
+  background-color: rgba(255, 111, 149, 0.38);
+}
+
+.roseSquare1_rotated{
+  transition-timing-function: ease-in-out;
+  transition-duration: 1000ms;
+  transition-delay: 300ms;
+  transform-origin: -77px 168px;
+  transform: rotate(45deg);
+  width: 80px;
+  height: 80px;
+  background-color: rgba(255, 111, 149, 0.38);
+}

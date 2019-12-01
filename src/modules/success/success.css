@@ -1,0 +1,14 @@
+.successPlace{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.successPlace h1{
+  color: #bc8043;
+  text-align: center;
+}
+.successPlace p,.successPlace h6{
+  text-align: center;
+  margin: 0;
+}

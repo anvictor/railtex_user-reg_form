@@ -1,0 +1,104 @@
+.active {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  color: #bc8043;
+  border: solid 5px #bc8043;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.line {
+  width: 80%;
+  margin: 45px auto;
+  border-top: solid 1px #99918a;
+  position: relative;
+}
+
+.activeLine.contact {
+  left: 0;
+  top: -47px;
+  position: absolute;
+  margin: 45px auto;
+  border-top: solid 4px #bc8043;
+   width: 0;
+ }
+.activeLine.address {
+  left: 0;
+  top: -47px;
+  position: absolute;
+  margin: 45px auto;
+  border-top: solid 4px #bc8043;
+  width: 33%;
+}
+.activeLine.categories {
+  left: 0;
+  top: -47px;
+  position: absolute;
+  margin: 45px auto;
+  border-top: solid 4px #bc8043;
+  width: 66%;
+}
+.activeLine.success {
+  left: 0;
+  top: -47px;
+  position: absolute;
+  margin: 45px auto;
+  border-top: solid 4px #bc8043;
+  width: 100%;
+}
+.point {
+  text-transform: uppercase;
+  position: relative;
+  color: #99918a;
+  font-size: 10px;
+  border: solid 3px #99918a;
+  width: 2px;
+  height: 2px;
+  border-radius: 10px;
+  margin: -4px 0 0 -3px;
+}
+.past {
+  text-transform: uppercase;
+  position: relative;
+  color: #bc8043;
+  font-size: 10px;
+  border: solid 4px #bc8043;
+  width: 2px;
+  height: 2px;
+  border-radius: 10px;
+  margin: -4px 0 0 -3px;
+}
+.point span {
+  display: block;
+  position: absolute;
+  top: 13px;
+  width: 90px;
+  left: -46px;
+  text-align: center;
+}
+.contact{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.address{
+  position: absolute;
+  top: 0;
+  left: 33%;
+}
+.categories{
+  position: absolute;
+  top: 0;
+  left: 66%;
+}
+.success{
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
